@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(52, 60, 86);
+}
+.item{
+    width: 200px;
+    border-radius: 30px;
+    background-color: red;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0%;
+    padding: 14px 0;
+    
+
+}
+.list{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin-top: 46px;
+
+}
+.uylo2{
+position: absolute;
+width: 400px;
+height: 200px;
+left: 230px;
+right: 860px;
+top: 212px;
+bottom: 612px;
+left: 80px;
+}
+.uylo1{
+position: absolute;
+width: 400px;
+height: 200px;
+left: 820px;
+right: 220px;
+top: 212px;
+bottom: 612px;
+right:80px;
+}
+.popa{
+position: absolute;
+width: 264px;
+height: 118px;
+left: 588px;
+right: 588px;
+top: 453px;
+bottom: 453px;
+border-radius: 40px;
+background: rgb(0, 0, 0);
+color: white;
+text-align: center;
+margin-top: 41px;
+margin-bottom: 36px;
+}
+.gij{
+position: absolute;
+width: 400px;
+height: 200px;
+left: 290px;
+right: 890px;
+top: 685px;
+bottom: 279px;
+background-color: green;
+color: white;
+border: 50px solid red;
+border-radius: 50px;
+text-align: center;
+margin-right: 50px;
+}
+.guj{
+position: absolute;
+width: 400px;
+height: 200px;
+left: 820px;
+right: 220px;
+top: 612px;
+bottom: 212px;
+background-color: green;
+border-radius: 50px;
+border: 50px solid red;
+color: white;
+text-align: center;
+margin-top: 60px;
+
+}
+.guj:hover{
+ background-color: blue;
+ transition: 0.5s ease-in-out;
+}
